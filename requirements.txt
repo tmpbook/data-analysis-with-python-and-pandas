@@ -1,0 +1,8 @@
+pandas==0.19.1
+pandas-datareader==0.2.1
+Quandl==3.0.1
+matplotlib==1.5.3
+numpy==1.11.3
+lxml==3.7.0
+html5lib==0.999999999
+beautifulsoup4==4.5.1

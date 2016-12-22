@@ -1,10 +1,12 @@
 ### Data sources
 [quantdl](https://www.quandl.com)
 
+---
 ### Pandas IO - CSV
 [read_csv](http://pandas.pydata.org/pandas-docs/stable/io.html#io-read-csv-table)
 [to_csv](http://pandas.pydata.org/pandas-docs/stable/io.html#io-store-in-csv)
 
+---
 ### Running Results
 ```
          Date     Value
