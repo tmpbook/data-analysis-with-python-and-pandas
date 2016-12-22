@@ -4,8 +4,12 @@
 pip install quandl
 ```
 > this package need network
+
 #### quandl api key
-You need sigh up a quandl account to get it for yourself. :>
+```
+df = quandl.get("FMAC/HPI_AK", authtoken=your_api_key)
+```
+You need sigh up a quandl account to get a api key for yourself. :>
 
 ---
 ### Data Source - WIKI
