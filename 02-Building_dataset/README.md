@@ -4,6 +4,7 @@
 pip install quandl
 ```
 > this package need network
+
 #### quandl api key
 You need sigh up a quandl account to get it for yourself. :>
 
