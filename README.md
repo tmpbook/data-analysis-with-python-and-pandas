@@ -1,3 +1,5 @@
+I run my script in virtualenv. Python version is `3.5.2`
+
 If you got this error:
 
 ```
@@ -7,8 +9,6 @@ See the Python documentation for more information on installing Python as a fram
 Please either reinstall Python as a framework, or try one of the other backends. 
 If you are Working with Matplotlib in a virtual enviroment see 'Working with Matplotlib in Virtual environments' in the Matplotlib FAQ
 ```
-
-I run my script in virtualenv. Python version is 3.5.
 
 Add a line:
 
