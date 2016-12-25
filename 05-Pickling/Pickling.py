@@ -14,7 +14,8 @@ def grab_initial_state_data():
 
     for abbv in states:
         query = "FMAC/HPI_" + str(abbv)
-        df = quandl.get(query, authtoken=api_key, start_date="2015-09-30", end_date="2016-09-30")
+        # df = quandl.get(query, authtoken=api_key, start_date="2015-09-30", end_date="2016-09-30")
+        df = quandl.get(query, authtoken=api_key, start_date="1996-09-30", end_date="2016-09-30")
         # df's index is `Date`, columns is `Value`(all the same), so I rename `'Value'` to `abbv` in next line.
         df.rename(columns={'Value': str(abbv)}, inplace=True)
 

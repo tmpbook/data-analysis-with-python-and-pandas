@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 style.use('fivethirtyeight')
 
-HPI_data = pd.read_pickle('fiddy_states.pickle')
+HPI_data = pd.read_pickle('../05-Pickling/fiddy_states.pickle')
 HPI_data['TX2'] = HPI_data['TX'] * 2
 print(HPI_data[['TX', 'TX2']])
 print(HPI_data[['TX', 'OH']].corr())
