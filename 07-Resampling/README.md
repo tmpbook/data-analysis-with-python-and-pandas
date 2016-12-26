@@ -1,3 +1,7 @@
+## .mean()
+![image](https://github.com/tmpbook/Data-Analysis-with-Python-and-Pandas/blob/master/07-Resampling/07-demo01.png)
+## .ohlc()
+![image](https://github.com/tmpbook/Data-Analysis-with-Python-and-Pandas/blob/master/07-Resampling/07-demo02.png)
 ## [Offset Aliases](http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases)
 
 > Anumber of string aliases are given to useful common time series frequencies. We will refer to these aliases as offset aliases (referred to as time rules prior to v0.8.0).
