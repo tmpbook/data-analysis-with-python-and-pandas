@@ -1,5 +1,5 @@
 #### Running Results
-``` python
+```
 # HPI_data['TX1yr'] = HPI_data['TX'].resample('A').mean()
 # print(HPI_data[['TX', 'TX1yr']])
                     TX       TX1yr
