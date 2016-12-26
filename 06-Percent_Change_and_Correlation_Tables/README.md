@@ -1,3 +1,9 @@
+### DEMO1
+![image](https://github.com/tmpbook/Data-Analysis-with-Python-and-Pandas/blob/master/06-Percent_Change_and_Correlation_Tables/06-demo1.png)
+
+### DEMO2
+![image](https://github.com/tmpbook/Data-Analysis-with-Python-and-Pandas/blob/master/06-Percent_Change_and_Correlation_Tables/06-demo2.png)
+
 ### Running Results
 ```
                     TX         TX2
