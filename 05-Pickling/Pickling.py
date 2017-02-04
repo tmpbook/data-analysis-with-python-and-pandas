@@ -2,7 +2,7 @@ import quandl
 import pandas as pd
 import pickle
 
-api_key = open('quandlapikey.txt', 'r').read()
+api_key = open('../02-Building_dataset/quandlapikey.txt', 'r').read()
 
 def state_list():
     fiddy_states = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states')

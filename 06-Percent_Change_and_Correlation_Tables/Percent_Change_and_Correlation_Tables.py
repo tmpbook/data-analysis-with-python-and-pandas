@@ -17,7 +17,7 @@ HPI_data_pct_change.plot()
 plt.legend().remove()
 plt.show()
 
-api_key = open('quandlapikey.txt', 'r').read()
+api_key = open('../02-Building_dataset/quandlapikey.txt', 'r').read()
 
 def HPI_Benchmark():
     df = quandl.get("FMAC/HPI_USA", authtoken=api_key)

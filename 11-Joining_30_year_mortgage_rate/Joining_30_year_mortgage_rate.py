@@ -2,7 +2,7 @@ import quandl
 import pandas as pd
 import pickle
 
-api_key = open('quandlapikey.txt', 'r').read()
+api_key = open('../02-Building_dataset/quandlapikey.txt', 'r').read()
 
 def mortgage_30y():
     df = quandl.get('FMAC/MORTG', trim_start="1975-01-01", authtoken=api_key)
